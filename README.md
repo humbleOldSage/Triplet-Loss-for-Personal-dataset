@@ -1,22 +1,29 @@
 # Triplet-Loss-for-Personal-dataset
 
-This work here is an improvement of novel work done by [omoindrot](https://github.com/omoindrot) in this [repo](https://github.com/omoindrot/tensorflow-triplet-loss).
+This work here is an improvement of novel work done by [omoindrot](https://github.com/omoindrot) in this [repo](https://github.com/omoindrot/tensorflow-triplet-loss).This repository lets one train and validate triplet loss for personal image dataset.
 
-The above code for triplet loss works for images on ones system in the following way
+To train the triplet loss model on your dataset, type the following on terminal: <br  />
+```
+python3 train.py --model_dir experiments/batch_all --data_dir /Data/Train
+```
+
+
+The data should be in a folder "Data" in this format
 
 <pre>
-   -Train
-      |--Class1
-           |--img1cls1.jpg
-           |--img2cls1.jpg
-           .
-           .
-      |--Class2<br />
-           |--img1cls2.jpg
-           |--img2cls2.jpg
-           .
-           .
-   -Test
+-Data
+  |--Train
+  |   |--Class1
+  |        |--img1cls1.jpg
+  |        |--img2cls1.jpg
+  |        .
+  |        .
+  |   |--Class2<br />
+  |        |--img1cls2.jpg
+  |        |--img2cls2.jpg
+  |        .
+  |        .
+  |--Test
       |--Class1
            |--img1cls1.jpg
            |--img2cls1.jpg
@@ -29,3 +36,5 @@ The above code for triplet loss works for images on ones system in the following
            .
              
 </pre>
+
+**This repository is still under work. As of 3rd August, only the train part works.The data for cross validation is taken care off from the Train data.**
