@@ -5,27 +5,27 @@ This work here is an improvement of novel work done by [omoindrot](https://githu
 The above code for triplet loss works for images on ones system in the following way
 
 
-   -Train <br\>
-      |--Class1
-           |--img1cls1.jpg
-           |--img2cls1.jpg
-           .
-           .
-      |--Class2
-           |--img1cls2.jpg
-           |--img2cls2.jpg
-           .
-           .
-   -Test
-      |--Class1
-           |--img1cls1.jpg
-           |--img2cls1.jpg
-           .
-           .
-      |--Class2
-           |--img1cls2.jpg
-           |--img2cls2.jpghttps://github.com/omoindrot/tensorflow-triplet-loss
-           .
-           .
+   -Train<br />
+      |--Class1<br />
+           |--img1cls1.jpg<br />
+           |--img2cls1.jpg<br />
+           .<br />
+           .<br />
+      |--Class2<br />
+           |--img1cls2.jpg<br />
+           |--img2cls2.jpg<br />
+           .<br />
+           .<br />
+   -Test<br />
+      |--Class1<br />
+           |--img1cls1.jpg<br />
+           |--img2cls1.jpg<br />
+           .<br />
+           .<br />
+      |--Class2<br />
+           |--img1cls2.jpg<br />
+           |--img2cls2.jpghttps://github.com/omoindrot/tensorflow-triplet-loss<br />
+           .<br />
+           .<br />
              
 
