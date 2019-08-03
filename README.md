@@ -4,10 +4,17 @@ This work here is an addition to the novel work done by [omoindrot](https://gith
 The data pipelining has been updated for the code to work .
 
 To train the triplet loss model on your dataset, type the following on terminal: <br  />
+**for batch all technique**
 ```
 python3 train.py --model_dir experiments/batch_all --data_dir /Data/Train
 ```
-
+<br  />
+OR 
+<br  />
+**for batch hard technique**
+```
+python3 train.py --model_dir experiments/batch_hard --data_dir /Data/Train
+```
 
 The data should be in a folder "Data" in this format
 
