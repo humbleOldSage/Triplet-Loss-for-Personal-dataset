@@ -37,7 +37,11 @@ The data should be in a folder "Data" in this format
              
 </pre>
 
-**This repository is still under work. As of 3rd August,2019 only the train part works.The data for cross validation is taken care of from the Train data.**
+**This repository is still under work.**<br  />
+  
+  **UPDATE**<br  />
+  
+  `<span style="color:red">As of 3rd August,2019 only the train part works.The data for cross validation is taken care of from the Train data.</span>`
 
 
 <dl>
