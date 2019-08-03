@@ -1,6 +1,6 @@
 # Triplet-Loss-for-Personal-dataset
 
-This work here is an addition to the novel work done by [omoindrot](https://github.com/omoindrot) in this [repo](https://github.com/omoindrot/tensorflow-triplet-loss). After improvement, the code lets one train and validate triplet loss for personal image dataset.
+This work here is an addition to the novel work done by [omoindrot](https://github.com/omoindrot). A clear idea about triplet loss is given in the official [repo](https://github.com/omoindrot/tensorflow-triplet-loss). After improvement, the code lets one train and validate triplet loss for **ones own image dataset**.
 
 To train the triplet loss model on your dataset, type the following on terminal: <br  />
 ```
@@ -39,4 +39,11 @@ The data should be in a folder "Data" in this format
 
 **This repository is still under work. As of 3rd August,2019 only the train part works.The data for cross validation is taken care of from the Train data.**
 
-*UPCOMING*
+
+<dl>
+  <dt>UPCOMING</dt>
+  <dd>A tutorial explaining code flow</dd>
+  
+  <dd>Test function</dd>
+ 
+</dl>
