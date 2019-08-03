@@ -8,9 +8,9 @@ To train the triplet loss model on your dataset, type the following on terminal:
 ```
 python3 train.py --model_dir experiments/batch_all --data_dir /Data/Train
 ```
-<br  />
 OR 
 <br  />
+
 **for batch hard technique**
 ```
 python3 train.py --model_dir experiments/batch_hard --data_dir /Data/Train
